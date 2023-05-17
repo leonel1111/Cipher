@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  background-color:#99ffb9;
+  background-image:
+radial-gradient(at 93% 97%, hsla(320,1%,67%,1) 0px, transparent 50%),
+radial-gradient(at 94% 32%, hsla(145,75%,64%,1) 0px, transparent 50%),
+radial-gradient(at 47% 74%, hsla(145,76%,66%,1) 0px, transparent 50%),
+radial-gradient(at 29% 33%, hsla(51,81%,75%,1) 0px, transparent 50%),
+radial-gradient(at 52% 43%, hsla(317,12%,74%,1) 0px, transparent 50%),
+radial-gradient(at 64% 17%, hsla(176,97%,79%,1) 0px, transparent 50%),
+radial-gradient(at 64% 20%, hsla(28,97%,63%,1) 0px, transparent 50%);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: #333;
+}
+
+form {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value (0.8) to control the transparency */
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+form:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit;
+  opacity: 0.2;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+
+
+label {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="number"],
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 14px;
+}
+
+#result {
+  height: 100px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.buttons div {
+  width: 48%;
+}
