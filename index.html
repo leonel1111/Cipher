@@ -14,6 +14,8 @@
     <form>
       <label for="text">Enter Text:</label>
       <textarea id="text" name="text"></textarea>
+      <input type="file" id="file-input" class="custom-file-input" accept=".txt">
+
 
       <div class="buttons">
         <div>
@@ -29,7 +31,11 @@
 
       <label for="result">Result:</label>
       <textarea id="result" name="result" readonly></textarea>
+      <button id="download-button" onclick="downloadResult()">Download Result</button>
+
+      <div id="alert" class="alert"></div>
     </form>
+   
     <script src="script.js"></script>
 </body>
 </html>
